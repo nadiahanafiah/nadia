@@ -1,3 +1,7 @@
-/**
- * Created by nadia on 9/22/14.
- */
+
+(function ($, undefined)) {
+    $('.click').click(function() {
+        $('.index').html('&nbsp');
+
+    });
+}
