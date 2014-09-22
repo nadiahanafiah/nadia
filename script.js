@@ -1,7 +1,7 @@
 
-(function ($, undefined)) {
+(function ($, undefined){
     $('.click').click(function() {
-        $('.index').html('&nbsp');
+        $('.index').html('clicked');
 
     });
-}
+}(jQuery));
